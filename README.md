@@ -4,7 +4,7 @@
 
 ## Usage
 
-```js
-const zundoko = require('./path/to/zundoko-kiyoshi');
-console.log(zundoko());
+```
+npm install tanikawa04/zundoko-kiyoshi
+$(npm bin)/zundoko-kiyoshi
 ```
