@@ -5,7 +5,7 @@ module.exports = function() {
     var zunzunzunzundoko = 'ズンズンズンズンドコ';
     var text = '';
 
-    while (!text.endsWith(zunzunzunzundoko)) {
+    while (text.slice(-10) !== zunzunzunzundoko) {
         text = text + zundoko[~~(Math.random() * 2)];
     }
 
