@@ -1,0 +1,120 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/tanikawa/.nodebrew/node/v5.9.0/bin/node',
+1 verbose cli   '/Users/tanikawa/.nodebrew/current/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'tanikawa04/zundoko-kiyoshi' ]
+2 info using npm@3.7.3
+3 info using node@v5.9.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData tanikawa04/zundoko-kiyoshi
+8 silly fetchOtherPackageData tanikawa04/zundoko-kiyoshi
+9 silly cache add args [ 'tanikawa04/zundoko-kiyoshi', null ]
+10 verbose cache add spec tanikawa04/zundoko-kiyoshi
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'tanikawa04/zundoko-kiyoshi',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'tanikawa04/zundoko-kiyoshi',
+11 silly cache add   spec: 'github:tanikawa04/zundoko-kiyoshi',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:tanikawa04/zundoko-kiyoshi.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/tanikawa04/zundoko-kiyoshi.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/tanikawa04/zundoko-kiyoshi.git',
+11 silly cache add      gitUrl: 'git://github.com/tanikawa04/zundoko-kiyoshi.git',
+11 silly cache add      shortcut: 'github:tanikawa04/zundoko-kiyoshi',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/tanikawa04/zundoko-kiyoshi/master/package.json' } }
+12 verbose addRemoteGit caching tanikawa04/zundoko-kiyoshi
+13 verbose addRemoteGit tanikawa04/zundoko-kiyoshi is a repository hosted by github
+14 silly tryGitProto attempting to clone git://github.com/tanikawa04/zundoko-kiyoshi.git
+15 silly tryClone cloning tanikawa04/zundoko-kiyoshi via git://github.com/tanikawa04/zundoko-kiyoshi.git
+16 verbose tryClone git-github-com-tanikawa04-zundoko-kiyoshi-git-5386dad1 not in flight; caching
+17 verbose correctMkdir /Users/tanikawa/.npm/_git-remotes correctMkdir not in flight; initializing
+18 info git [ 'clone',
+18 info git   '--template=/Users/tanikawa/.npm/_git-remotes/_templates',
+18 info git   '--mirror',
+18 info git   'git://github.com/tanikawa04/zundoko-kiyoshi.git',
+18 info git   '/Users/tanikawa/.npm/_git-remotes/git-github-com-tanikawa04-zundoko-kiyoshi-git-5386dad1' ]
+19 verbose mirrorRemote tanikawa04/zundoko-kiyoshi git clone git://github.com/tanikawa04/zundoko-kiyoshi.git
+20 verbose correctMkdir /Users/tanikawa/.npm/_git-remotes correctMkdir not in flight; initializing
+21 verbose setPermissions tanikawa04/zundoko-kiyoshi set permissions on /Users/tanikawa/.npm/_git-remotes/git-github-com-tanikawa04-zundoko-kiyoshi-git-5386dad1
+22 verbose resolveHead tanikawa04/zundoko-kiyoshi original treeish: master
+23 info git [ 'rev-list', '-n1', 'master' ]
+24 silly resolveHead tanikawa04/zundoko-kiyoshi resolved treeish: 19870408d302c77a7eeaaf9d9800fdfc53de5f64
+25 verbose resolveHead tanikawa04/zundoko-kiyoshi resolved Git URL: git://github.com/tanikawa04/zundoko-kiyoshi.git#19870408d302c77a7eeaaf9d9800fdfc53de5f64
+26 silly resolveHead Git working directory: /var/folders/g8/xpk35mss0756cj_5t6n72r1h0000gn/T/npm-9215-8a1419f6/git-cache-61e207c5/19870408d302c77a7eeaaf9d9800fdfc53de5f64
+27 info git [ 'clone',
+27 info git   '/Users/tanikawa/.npm/_git-remotes/git-github-com-tanikawa04-zundoko-kiyoshi-git-5386dad1',
+27 info git   '/var/folders/g8/xpk35mss0756cj_5t6n72r1h0000gn/T/npm-9215-8a1419f6/git-cache-61e207c5/19870408d302c77a7eeaaf9d9800fdfc53de5f64' ]
+28 verbose cloneResolved tanikawa04/zundoko-kiyoshi clone Cloning into '/var/folders/g8/xpk35mss0756cj_5t6n72r1h0000gn/T/npm-9215-8a1419f6/git-cache-61e207c5/19870408d302c77a7eeaaf9d9800fdfc53de5f64'...
+28 verbose cloneResolved done.
+29 info git [ 'checkout', '19870408d302c77a7eeaaf9d9800fdfc53de5f64' ]
+30 verbose checkoutTreeish tanikawa04/zundoko-kiyoshi checkout Note: checking out '19870408d302c77a7eeaaf9d9800fdfc53de5f64'.
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+30 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+30 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+30 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish   git checkout -b <new-branch-name>
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish HEAD is now at 1987040... Merge pull request #1 from rockymanobi/master
+31 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+32 verbose updateSubmodules tanikawa04/zundoko-kiyoshi submodule update
+33 verbose addLocalDirectory /Users/tanikawa/.npm/zundoko-kiyoshi/0.0.1/package.tgz not in flight; packing
+34 verbose correctMkdir /Users/tanikawa/.npm correctMkdir not in flight; initializing
+35 verbose tar pack [ '/Users/tanikawa/.npm/zundoko-kiyoshi/0.0.1/package.tgz',
+35 verbose tar pack   '/var/folders/g8/xpk35mss0756cj_5t6n72r1h0000gn/T/npm-9215-8a1419f6/git-cache-61e207c5/19870408d302c77a7eeaaf9d9800fdfc53de5f64' ]
+36 verbose tarball /Users/tanikawa/.npm/zundoko-kiyoshi/0.0.1/package.tgz
+37 verbose folder /var/folders/g8/xpk35mss0756cj_5t6n72r1h0000gn/T/npm-9215-8a1419f6/git-cache-61e207c5/19870408d302c77a7eeaaf9d9800fdfc53de5f64
+38 verbose addLocalTarball adding from inside cache /Users/tanikawa/.npm/zundoko-kiyoshi/0.0.1/package.tgz
+39 verbose correctMkdir /Users/tanikawa/.npm correctMkdir not in flight; initializing
+40 verbose addRemoteGit data._from: tanikawa04/zundoko-kiyoshi
+41 verbose addRemoteGit data._resolved: git://github.com/tanikawa04/zundoko-kiyoshi.git#19870408d302c77a7eeaaf9d9800fdfc53de5f64
+42 silly cache afterAdd zundoko-kiyoshi@0.0.1
+43 verbose afterAdd /Users/tanikawa/.npm/zundoko-kiyoshi/0.0.1/package/package.json not in flight; writing
+44 verbose correctMkdir /Users/tanikawa/.npm correctMkdir not in flight; initializing
+45 verbose afterAdd /Users/tanikawa/.npm/zundoko-kiyoshi/0.0.1/package/package.json written
+46 silly install normalizeTree
+47 silly loadCurrentTree Finishing
+48 silly loadIdealTree Starting
+49 silly install loadIdealTree
+50 silly cloneCurrentTree Starting
+51 silly install cloneCurrentTreeToIdealTree
+52 silly cloneCurrentTree Finishing
+53 silly loadShrinkwrap Starting
+54 silly install loadShrinkwrap
+55 silly loadShrinkwrap Finishing
+56 silly loadAllDepsIntoIdealTree Starting
+57 silly install loadAllDepsIntoIdealTree
+58 silly rollbackFailedOptional Starting
+59 silly rollbackFailedOptional Finishing
+60 silly runTopLevelLifecycles Starting
+61 silly runTopLevelLifecycles Finishing
+62 silly install printInstalled
+63 verbose stack Error: Refusing to install zundoko-kiyoshi as a dependency of itself
+63 verbose stack     at checkSelf (/Users/tanikawa/.nodebrew/node/v5.9.0/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+63 verbose stack     at Array.<anonymous> (/Users/tanikawa/.nodebrew/node/v5.9.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+63 verbose stack     at LOOP (/Users/tanikawa/.nodebrew/node/v5.9.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+63 verbose stack     at chain (/Users/tanikawa/.nodebrew/node/v5.9.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+63 verbose stack     at /Users/tanikawa/.nodebrew/node/v5.9.0/lib/node_modules/npm/lib/install/validate-args.js:16:5
+63 verbose stack     at /Users/tanikawa/.nodebrew/node/v5.9.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+63 verbose stack     at Array.forEach (native)
+63 verbose stack     at /Users/tanikawa/.nodebrew/node/v5.9.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+63 verbose stack     at Array.forEach (native)
+63 verbose stack     at asyncMap (/Users/tanikawa/.nodebrew/node/v5.9.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+64 verbose cwd /Users/tanikawa/projects/zundoko
+65 error Darwin 15.3.0
+66 error argv "/Users/tanikawa/.nodebrew/node/v5.9.0/bin/node" "/Users/tanikawa/.nodebrew/current/bin/npm" "install" "tanikawa04/zundoko-kiyoshi"
+67 error node v5.9.0
+68 error npm  v3.7.3
+69 error code ENOSELF
+70 error Refusing to install zundoko-kiyoshi as a dependency of itself
+71 error If you need help, you may report this error at:
+71 error     <https://github.com/npm/npm/issues>
+72 verbose exit [ 1, true ]
